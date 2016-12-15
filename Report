@@ -1,0 +1,103 @@
+Web Design & Development – CA 2
+
+
+Amber King – X00120660
+Conor McDaid – X00109876
+Rachel Hanlon – X00128800
+
+
+PART 1
+
+
+Introduction 
+This report is on our website about healthy living. We chose the healthy living topic because it is interesting and we felt that there is a lot we could do with it. Our website is aimed to give users an overall guide on how to live a healthy life. It is aimed at people ranged in their teens to adulthood. The goal we hope to achieve is that it will give users an idea on how to live a healthy lifestyle, either if they are maintaining their healthy lifestyle, or if their lifestyle choices are not so good and want to make a change. 
+
+
+Who will access the site? 
+The two different types of people who will access this website will be the administrators and the specific target audience. 
+
+
+ What sections and pages are required and how will the user access them? 
+We will have a home page where we will give some information on the website and how to go about having a healthy lifestyle. From this page you will be able to access different tabs about exercise and recipes. The exercise page will give the user a few simple exercises on how to have a healthy lifestyle. On the recipes tab we will give a breakdown on how the user can make breakfast, lunch and dinner regarding healthy eating. We will also give the users an option to ‘contact us’. Where they can contact the administrators for further information or ask any questions regarding a healthy lifestyle. 
+
+
+Who is your audience?
+The audience we are aiming at are people who are interested in living and having a healthy lifestyle. We will provide different areas for these people on the website to access; these areas are exercises and recipes. The audience we are targeting will vary; we will provide a website for people in all age categories.
+Page Design: 
+Navigation:
+The aim is to make the navigation through our website as easy and as quick as possible for the user. When the user first accesses our website, they will be brought to the index page which is the home page.  From there, the links to the other pages will be clearly visible. There will be quick links to the second layer of pages; BMI , Exercise, Recipes, Contact Us. Also there will be three other links when you reach the Recipes page; Breakfast, Lunch, Dinner. This design means the user can get to any of the seven pages within three clicks.
+
+
+
+
+
+
+
+
+
+Page Layout:
+
+
+
+
+
+
+
+
+
+Images:
+The images we chose to be on our website were chosen because we felt that they each related to the text well and added more information which makes reading our website easier for the user. We also wanted to make sure that our images were good quality and relevant to what our website is about. 
+
+                          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CA PART 2:                  Server Side Functionality
+How the site was designed:
+We carried on developing the website we had created in part 1. With this we were able to attempt completing part 2 of the Assignment.  
+First of all we had to add a new page, called Products, to our website. This was to facilitate the second part of the CA which was to have a dynamic element in the website, such as a list of Products. This list must have the ability to view, add, update and delete products and elements. 
+We encountered some errors while we were carrying out the second part of the CA. We decided as a group to provide screen shots of areas that we encountered issues in and add them into our report. We also decided to not allow ourselves to become stuck on a particular part of the Assignment as there was quite a lot of work to be done so instead we carried on working through the steps with the aid of the labs. 
+Below are screenshots of the different issues that we encountered while doing part 2. We found that most of our errors were coming from the initial stage of the products page. We were unsure how to fix these issues and unfortunately it meant that they were carried over to the next steps in the project. We did attempt all the elements within the products page.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+How the site was Developed:
+The site was developed by adding this new product's page. In this page we had a list of books that would help each user of the site to follow a healthy lifestyle. On this products list we included the book ID, name, price and how many we had in stock. We followed the labs to achieve this part of the project.
+Each member of this group contributed equally because we all worked together through each part of this project. 
+
+
+
+
+

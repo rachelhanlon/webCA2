@@ -1,0 +1,174 @@
+@*
+ * This template takes a single argument, a String containing a
+ * message to display.
+ *@
+@(message: String)
+
+@*
+ * Call the `main` template with two arguments. The first
+ * argument is a `String` with the title of the page, the second
+ * argument is an `Html` object containing the body of the page.
+ *@
+@main("Welcome to Play") {
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author"      content="Sergey Pozhilov (GetTemplate.com)">
+	
+	<title>Healthy Living - BMI</title>
+
+	<link rel="shortcut icon" href="assets/images/gt_favicon.png">
+	
+	<link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+	<!-- Custom styles for our template -->
+	<link rel="stylesheet" href="assets/css/bootstrap-theme.css" media="screen" >
+	<link rel="stylesheet" href="assets/css/main.css">
+
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	<script src="assets/js/html5shiv.js"></script>
+	<script src="assets/js/respond.min.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+	<!-- Fixed navbar -->
+	<div class="navbar navbar-inverse navbar-fixed-top headroom" >
+		<div class="container">
+			<div class="navbar-header">
+				<!-- Button for smallest screens -->
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+				<a class="navbar-brand" href="index.html">Healthy Living</a>
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav pull-right">
+					<li><a href="index.html">Home</a></li>
+					<li class="active"><a href="/BMI">BMI</a></li>
+					<li><a href="/Exercise">Exercise</a></li>
+                                        <li><a href="/Products">Products</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Recipes <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="/Breakfast">Breakfast</a></li>
+							<li><a href="/Lunch">Lunch</a></li>
+							<li><a href="/Dinner">Dinner</a></li>
+						</ul>
+					</li>
+					<li><a href="/contact">Contact</a></li>
+			
+				</ul>
+			</div><!--/.nav-collapse -->
+		</div>
+	</div> 
+	<!-- /.navbar -->
+
+	<header id="head" class="secondary"></header>
+
+	<!-- container -->
+	<div class="container">
+
+		<div class="row">
+			
+			<!-- Article main content -->
+			<article class="col-sm-8 maincontent">
+				<header class="page-header">
+					<h1 class="page-title">Body Mass Index</h1>
+				</header>
+				<h3>BMI</h3>
+				<p><img src="images/bmiChart.png" alt="" class="img-rounded pull-right" width="300" ></p>
+				<p>Body Mass Index (BMI) is a guide that shows weight ranges from underweight to obesity. To calculate your BMI you need to know your height  and your weight and then divide your weight by your height squared. Or just find your height on our chart below and slide your finger across to find your weight (in pounds). When you have correctly found your height and weight, you will see you will be categorised into different weight ranges. The colour coded weight ranges will give you an indication if you are underweight, normal, overweight or reaching obesity. </p>
+				<h3>Calories</h3>
+				<p>Calories are a measure of how much food and drink contains. The amount of energy you need throughout the day depends on your age, lifestyle and size. The average amount of calories a women should have per day is 2,000Kcal. The average amount of calories a man should have per day is 2,500Kcal. This may vary due to how active the individual is. </p>
+				<h3>Scalabilty<p><img src="images/bmi_imperial.png" alt="" class="img-rounded pull-right" width="300" ></p></h3>
+				<p>BMI is proportional to mass and inversely proportional to the square of the height. So, if all body dimensions double, and mass scales naturally with the cube of the height, then BMI doubles instead of remaining the same. This results in taller people having a reported BMI that is uncharacteristically high, compared to their actual body fat levels. In comparison, the Ponderal index is based on the natural scaling of mass with the third power of the height. However, many taller people are not just "scaled up" short people but tend to have narrower frames in proportion to their height. Nick Korevaar (a mathematics lecturer from the University of Utah) suggests that instead of squaring the body height (as the BMI does) or cubing the body height (as the Ponderal index does), it would be more appropriate to use an exponent of between 2.3 and 2.7</p>
+				
+			</article>
+			<!-- /Article -->
+			
+			
+
+		</div>
+	</div>	<!-- /container -->
+	
+	<div class="jumbotron top-space">
+		<div class="container">
+			
+			<h3 class="text-center thin">General Information</h3>
+			
+			<div class="row">
+				<div class="col-md-4 col-sm-6 highlight">
+					<div class="h-caption"><h4><i class="fa fa-flash fa-5"></i>Exercise</h4></div>
+					<div class="h-body text-center">
+						<p>Exercise is also known as physical activity. In simple terms exercise is any movement that works your body at a greater intensity than your usual level of daily activity. Exercise raises your heart rate and works your muscles and is most commonly undertaken to achieve the aim of physical fitness.</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 highlight">
+					<div class="h-caption"><h4><i class="fa fa-cogs fa-5"></i>Recipes</h4></div>
+					<div class="h-body text-center">
+						<p>Good nutrition is an important part of leading a healthy lifestyle. Combined with physical activity, your diet can help you to reach and maintain a healthy weight, reduce your risk of chronic diseases (like heart disease and cancer), and promote your overall health.</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 highlight">
+					<div class="h-caption"><h4><i class="fa fa-heart fa-5"></i>Body Mass Index</h4></div>
+					<div class="h-body text-center">
+						<p>Morbid obesity is defined as at least 100 pounds overweight, with a BMI greater than 40. BMI is a measure of your general health and is based on your height and weight ratio. If your BMI is high, you may have an increased risk of developing certain diseases including: high blood pressure.</p>
+					</div>
+				</div>
+			</div> <!-- /row  -->
+		
+		</div>
+	</div>
+	
+
+
+	<footer id="footer" class="top-space">
+		<div class="footer2">
+			<div class="container">
+				<div class="row">
+					
+					<div class="col-md-6 widget">
+						<div class="widget-body">
+							<p class="simplenav">
+								<a href="index.html">Home</a> | 
+								<a href="/BMI">BMI</a> |
+								<a href="/Exercise">Exercise</a> |
+							<a href="/Products">Products</a> |
+								<a href="/contact">Contact</a> |
+							</p>
+						</div>
+					</div>
+
+					<div class="col-md-6 widget">
+						<div class="widget-body">
+							<p class="text-right">
+								Copyright &copy; 2016. Designed by Designed by Conor, Rachel, Amber 
+							</p>
+						</div>
+					</div>
+
+				</div> <!-- /row of widgets -->
+			</div>
+		</div>
+	</footer>	
+		
+
+
+
+
+	<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+	<script src="assets/js/headroom.min.js"></script>
+	<script src="assets/js/jQuery.headroom.min.js"></script>
+	<script src="assets/js/template.js"></script>
+</body>
+</html>
+
+}

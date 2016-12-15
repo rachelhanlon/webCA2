@@ -1,0 +1,27 @@
+
+
+
+@import helper._
+
+@(addProductForm: Form[models.Product])
+
+
+@main("Add Product") {
+<h4>Add new Product </h4>
+
+@form(action = routes.HomeController.addProductSubmit(), 'class -> "form-horizontal", 'role->form){
+
+@inputText(addProductForm("name"), '_label -> "Name",'class -> "form-control")
+@inputText(addProductForm("price"),'_label -> "Price",'class ->"form-control")
+@inputText(addProductForm("stock"),'_label -> "Stock",'class ->"form-control")
+
+
+<div class="actions">
+	<input type="submit" value="Add Product" class="btn btn-primary">
+	   <a href="@routes.HomeController.index()"
+		<button class="btn btn-warning">Cancel</button>
+</a>
+</div>
+}
+}
+

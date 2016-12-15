@@ -1,0 +1,218 @@
+@*
+ * This template takes a single argument, a String containing a
+ * message to display.
+ *@
+@(message: String)
+
+@*
+ * Call the `main` template with two arguments. The first
+ * argument is a `String` with the title of the page, the second
+ * argument is an `Html` object containing the body of the page.
+ *@
+@main("Welcome to Play") {
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author"      content="Sergey Pozhilov (GetTemplate.com)">
+	
+	<title>Healthy Living - Recipes - Lunch</title>
+
+	<link rel="shortcut icon" href="assets/images/gt_favicon.png">
+	
+	<link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+	<!-- Custom styles for our template -->
+	<link rel="stylesheet" href="assets/css/bootstrap-theme.css" media="screen" >
+	<link rel="stylesheet" href="assets/css/main.css">
+
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	<script src="assets/js/html5shiv.js"></script>
+	<script src="assets/js/respond.min.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+	<!-- Fixed navbar -->
+	<div class="navbar navbar-inverse navbar-fixed-top headroom" >
+		<div class="container">
+			<div class="navbar-header">
+				<!-- Button for smallest screens -->
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+				<a class="navbar-brand" href="index.html">Healthy Living</a>
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav pull-right">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="/BMI">BMI</a></li>
+					<li><a href="/Exercise">Exercise</a></li>
+                                         <li><a href="/Products">Products</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Recipes<b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="/Breakfast">Breakfast</a></li>
+							<li><a href="/Lunch">Lunch</a></li>
+							<li><a href="/Dinner">Dinner</a></li>
+						</ul>
+					</li>
+					<li><a href="/contact">Contact</a></li>
+				</ul>
+			</div><!--/.nav-collapse -->
+		</div>
+	</div> 
+	<!-- /.navbar -->
+
+	<header id="head" class="secondary"></header>
+
+	<!-- container -->
+	<div class="container">
+	
+		<div class="row">
+			
+			<!-- Sidebar -->
+			<aside class="col-md-4 sidebar sidebar-left">
+
+				<div class="row widget">
+					<div class="col-xs-12">
+						<h4><strong>Lunch</strong></h4>
+					</div>
+				</div>
+				<div class="row widget">
+					<div class="col-xs-12">
+						<p><img src="Images/soup.jpg" alt=""></p>
+					</div>
+				</div>
+				<div class="row widget">
+					<div class="col-xs-12">
+						<p><img src="Images/wrap.jpg" alt=""></p>
+					</div>
+				</div>
+
+			</aside>
+			<!-- /Sidebar -->
+
+			<!-- Article main content -->
+			<article class="col-md-8 maincontent">
+				<header class="page-header">
+					<h1 class="page-title">Importance of Lunch.......</h1>
+				</header>
+				<p>According to Mental Healthy, lunch is important because it provides nourishment to the body and brain and reduces stress. Eating lunch provides a break from the activities of the day and gives energy for the afternoon. Eating at regular intervals is also important for a healthy diet.</p>
+				
+
+				<h3>Alkalising Green Soup</h3>
+					<ol>
+						<li>Add oil into a deep saucepan</li>
+						<li>Add garlic, ginger, coriander, tumeric and salt (all chopped) and fry for 2mins on a medium heat</li>
+						<li>Add the courgettes and then add 400ml of stock and leave to simmer for 3mins.</li>
+						<li>Next add the brocolli, kale, and lime juice with the remaining stock and leave for another 3-4mins</li>
+						<li>Finally take off the heat and add some chopped parsley, pour everything into a blender and blend until smooth</li>
+					</ol>
+
+				<h3>Spicy Chicken/Avocado Wraps</h3>
+					<ol>
+						<li>Mix the chicken with lime juice, chili powder and garlic.</li>
+						<li>Heat the oil in a frying pan, then fry the chicken for a couple of mins.</li>
+						<li>Meanwhile warm the wraps up following the pack instructions.</li>
+						<li>Squash half an avocado onto each wrap.</li>
+						<li>Add peppers to the pan, and fry until cooked. Once Everything is cooked, add the chicken on the top of the avocado. Add some herbs for extra flavour if you want.</li>
+						<li>Roll up and cut in half.</li>
+					</ol>
+					
+				<h3>Easy Noodle Soup</h3>
+					<ol>
+						<li>Put stock, ginger, garlic, soy sauce and sugar into a saucepan, then heat.</li>
+						<li>Simmer for approximately 5mins.</li>
+						<li>Take off the heat and then pour into a microwave safe bowl.</li>
+						<li>Fry off some chicken and once cooked add it into the stock you have already made.</li>
+						<li>Once you are ready to eat, boil the noodles (2mins).</li>
+						<li>Add the chicken/stock to the noodles and sprinkle some spring onions and lime juice over the top.</li>
+					</ol>
+				
+				
+			</article>
+			<!-- /Article -->
+
+		</div>
+	</div>	<!-- /container -->
+	
+	<div class="jumbotron top-space">
+		<div class="container">
+			
+			<h3 class="text-center thin">General Information</h3>
+			
+			<div class="row">
+				<div class="col-md-4 col-sm-6 highlight">
+					<div class="h-caption"><h4><i class="fa fa-flash fa-5"></i>Exercise</h4></div>
+					<div class="h-body text-center">
+						<p>Exercise is also known as physical activity. In simple terms exercise is any movement that works your body at a greater intensity than your usual level of daily activity. Exercise raises your heart rate and works your muscles and is most commonly undertaken to achieve the aim of physical fitness.</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 highlight">
+					<div class="h-caption"><h4><i class="fa fa-cogs fa-5"></i>Recipes</h4></div>
+					<div class="h-body text-center">
+						<p>Good nutrition is an important part of leading a healthy lifestyle. Combined with physical activity, your diet can help you to reach and maintain a healthy weight, reduce your risk of chronic diseases (like heart disease and cancer), and promote your overall health.</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 highlight">
+					<div class="h-caption"><h4><i class="fa fa-heart fa-5"></i>Body Mass Index</h4></div>
+					<div class="h-body text-center">
+						<p>Morbid obesity is defined as at least 100 pounds overweight, with a BMI greater than 40. BMI is a measure of your general health and is based on your height and weight ratio. If your BMI is high, you may have an increased risk of developing certain diseases including: high blood pressure.</p>
+					</div>
+				</div>
+			</div> <!-- /row  -->
+		
+		</div>
+	</div>
+	
+	<footer id="footer" class="top-space">
+
+
+		<div class="footer2">
+			<div class="container">
+				<div class="row">
+					
+					<div class="col-md-6 widget">
+						<div class="widget-body">
+							<p class="simplenav">
+								<a href="index.html">Home</a> | 
+								<a href="/BMI">BMI</a> |
+								<a href="/Exercise">Exercise</a> |
+							<a href="/Products">Products</a> |
+								<a href="/contact">Contact</a>
+							</p>
+						</div>
+					</div>
+
+					<div class="col-md-6 widget">
+						<div class="widget-body">
+							<p class="text-right">
+								Copyright &copy; 2016. Designed by Designed by Conor, Rachel, Amber 
+							</p>
+						</div>
+					</div>
+
+				</div> <!-- /row of widgets -->
+			</div>
+		</div>
+	</footer>	
+		
+
+
+
+
+	<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+	<script src="assets/js/headroom.min.js"></script>
+	<script src="assets/js/jQuery.headroom.min.js"></script>
+	<script src="assets/js/template.js"></script>
+</body>
+</html>
+
+}

@@ -1,0 +1,179 @@
+@*
+ * This template takes a single argument, a String containing a
+ * message to display.
+ *@
+@(message: String)
+
+@*
+ * Call the `main` template with two arguments. The first
+ * argument is a `String` with the title of the page, the second
+ * argument is an `Html` object containing the body of the page.
+ *@
+@main("Welcome to Play") {
+
+   <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author"      content="Sergey Pozhilov (GetTemplate.com)">
+	
+	<title>Healthy Living - Exercise</title>
+
+	<link rel="shortcut icon" href="assets/images/gt_favicon.png">
+	
+	<link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+	<!-- Custom styles for our template -->
+	<link rel="stylesheet" href="assets/css/bootstrap-theme.css" media="screen" >
+	<link rel="stylesheet" href="assets/css/main.css">
+
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	<script src="assets/js/html5shiv.js"></script>
+	<script src="assets/js/respond.min.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+	<!-- Fixed navbar -->
+	<div class="navbar navbar-inverse navbar-fixed-top headroom" >
+		<div class="container">
+			<div class="navbar-header">
+				<!-- Button for smallest screens -->
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+				<a class="navbar-brand" href="index.html">Healthy Living</a>
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav pull-right">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="/BMI">BMI</a></li>
+					<li class="active"><a href="/Exercise">Exercise</a></li>
+<li><a href="/Products">Products</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Recipes <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="/Breakfast">Breakfast</a></li>
+							<li><a href="/Lunch">Lunch</a></li>
+							<li><a href="/Dinner">Dinner</a></li>
+						</ul>
+					</li>
+					<li><a href="/contact">Contact</a></li>
+			
+				</ul>
+			</div><!--/.nav-collapse -->
+		</div>
+	</div> 
+	<!-- /.navbar -->
+
+	<header id="head" class="secondary"></header>
+
+	<!-- container -->
+	<div class="container">
+
+		<div class="row">
+			
+			<!-- Article main content -->
+			<article class="col-sm-8 maincontent">
+				<header class="page-header">
+					<h1 class="page-title">Exercise</h1>
+				</header>
+				<h3>How Often Should you Exercise?</h3>
+				<p><img src="images/Exercise.jpg" alt="" class="img-rounded pull-right" width="300" ></p>
+				<p>There are 3 specific exercise frequencies that we need to care about most:<br>
+					<li>Overall Exercise Frequency</li>
+					<li>Weight Training Frequency</li>
+					<li>Muscle Group/Body Part Frequency</li></p>
+				<h3>Overall Exercise Frequency</h3>
+				<p>Overall Exercise frequency can vary as is it depends on the person and the persons goal. For example a fat person with the primary goal of losing fat may have 4 cardio workouts per week, while a skinny person with the primary goal of building muscle may do no cardio whatsoever. But if you are trying to life that healthy lifestyle you should be exercising at very most 6 times a week with one complete rest day.</p>
+				<h3>Weight Training Frequency</h3>
+				<p>When it comes to weight training people tend to think that the more they everyday will get the bigger. Which is wrong as the muscles need to rest to gain weight. Thats why the majority of the population should weight train 3-4 times a week and never more than 2 consecutive days in a row. </p>
+				<h3>Muscle Group/Body Part Frequency</h3>
+				<p><img src="images/schedule.jpg" alt="" class="img-rounded pull-right" width="300" ></p>
+				<p>This is a big one as it needs to be done right. Training one body part more than 2 times a week is bad. Its bad because the muscle is clearly getting no rest so the muscle is not getting the time to form and too much will damage the muscle. Each muscle should be trained once a week for example Arms Monday, legs Tuesday, rest Wedesday, chest Thursday, back Friday, rest Sunday. </p></p>
+				<p>Finally it is good to make a planer for the week. This is so you dont double up in a week or miss a muscle. It is good to have the exercises you are doing on each day. Heres an example of a planner.</p>
+				
+				
+			</article>
+			<!-- /Article -->
+			
+			<!-- Sidebar -->
+			
+		</div>
+	</div>	<!-- /container -->
+
+	<div class="jumbotron top-space">
+		<div class="container">
+			
+			<h3 class="text-center thin">General Information</h3>
+			
+			<div class="row">
+				<div class="col-md-4 col-sm-6 highlight">
+					<div class="h-caption"><h4><i class="fa fa-flash fa-5"></i>Exercise</h4></div>
+					<div class="h-body text-center">
+						<p>Exercise is also known as physical activity. In simple terms exercise is any movement that works your body at a greater intensity than your usual level of daily activity. Exercise raises your heart rate and works your muscles and is most commonly undertaken to achieve the aim of physical fitness.</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 highlight">
+					<div class="h-caption"><h4><i class="fa fa-cogs fa-5"></i>Recipes</h4></div>
+					<div class="h-body text-center">
+						<p>Good nutrition is an important part of leading a healthy lifestyle. Combined with physical activity, your diet can help you to reach and maintain a healthy weight, reduce your risk of chronic diseases (like heart disease and cancer), and promote your overall health.</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 highlight">
+					<div class="h-caption"><h4><i class="fa fa-heart fa-5"></i>Body Mass Index</h4></div>
+					<div class="h-body text-center">
+						<p>Morbid obesity is defined as at least 100 pounds overweight, with a BMI greater than 40. BMI is a measure of your general health and is based on your height and weight ratio. If your BMI is high, you may have an increased risk of developing certain diseases including: high blood pressure.</p>
+					</div>
+				</div>
+			</div> <!-- /row  -->
+		
+		</div>
+	</div>
+	
+		<footer id="footer" class="top-space">
+		<div class="footer2">
+			<div class="container">
+				<div class="row">
+					
+					<div class="col-md-6 widget">
+						<div class="widget-body">
+							<p class="simplenav">
+								<a href="index.html">Home</a> | 
+								<a href="/BMI.html">BMI</a> |
+								<a href="/Exercise">Exercise</a> |
+							<a href="/Products">Products</a> |
+								<a href="/contact">Contact</a> |
+							</p>
+						</div>
+					</div>
+
+					<div class="col-md-6 widget">
+						<div class="widget-body">
+							<p class="text-right">
+								Copyright &copy; 2016. Designed by Designed by Conor, Rachel, Amber
+							</p>
+						</div>
+					</div>
+
+				</div> <!-- /row of widgets -->
+			</div>
+		</div>
+	</footer>	
+		
+
+
+
+
+	<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+	<script src="assets/js/headroom.min.js"></script>
+	<script src="assets/js/jQuery.headroom.min.js"></script>
+	<script src="assets/js/template.js"></script>
+</body>
+</html>
+}
